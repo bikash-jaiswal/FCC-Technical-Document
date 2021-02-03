@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* body {
+    display: 100vh;
+} */
+/* .navbar {
+    background: black;
+    height: 2rem;
+    margin-bottom: auto;
+} */
+.container {
+    /* height: 100vh; */
+    width: auto;
+    display: grid;
+    grid-template-columns: 25vh auto;
+    column-gap: 4px;
+    grid-template-areas: "header" "advert content";
+}
+
+.menu {
+    padding: 1.5rem;
+    background: grey;
+    height: 100vh;
+    overflow: hidden;
+
+}
+
+.content {
+    background: honeydew;
+    /* height: 1000px; */
+    height: 100vh;
+    overflow: auto;
+    padding: 1rem;
+
+}
